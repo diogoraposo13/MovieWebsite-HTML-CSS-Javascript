@@ -129,5 +129,28 @@ body{
 
 .featured-content{
     height:50vh;
-    
+    padding: 50px;
+}
+
+.featured-title{
+    width: 200px;
+
+}
+
+.featured-desc{
+    width:350px;
+    color:black;
+    margin: 30px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.featured-button{
+    background-color: #4dbf00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
 }
