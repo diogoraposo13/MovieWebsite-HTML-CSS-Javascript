@@ -156,8 +156,7 @@ body{
 }
 
 .movie-list-container{
-    padding: 0 20px;
-    margin: 50px 0px;
+    padding: 40px 20px;
 }
 
 .movie-list-title{
@@ -166,12 +165,15 @@ body{
 
 .movie-list-wrapper{
     position: relative;
+    overflow: hidden;
 }
 
 .movie-list{
     display: flex;
     height: 300 px;
     align-items: center;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
 }
 
 .movie-list-item{
@@ -193,10 +195,11 @@ body{
 }
 
 .movie-list-item-img{
-    width: 370px;
-    height: 280px;
+    width: 270px;
+    height: 200px;
     object-fit: cover;
     transition: all 1s ease-in-out;
+    border-radius: 30px;
 }
 
 .movie-list-item-title{
