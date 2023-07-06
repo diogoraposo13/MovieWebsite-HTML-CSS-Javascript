@@ -70,7 +70,7 @@ body{
     object-fit: cover;
 }
 
-.toogle{
+.toggle{
     width: 40px;
     height: 20px;
     background-color: white;
@@ -83,11 +83,11 @@ body{
 }
 
 
-.toogle-icon{
+.toggle-icon{
     color: goldenrod;
 }
 
-.toogle-ball{
+.toggle-ball{
     width:18px;
     height: 18px;
     background-color: black;
@@ -95,6 +95,7 @@ body{
     right:1px;
     border-radius: 50%;
     cursor: pointer;
+    transition: 1s ease all;
 }
 
 
@@ -249,4 +250,36 @@ body{
     color: lightgray;
     opacity: 0.8;
     cursor: pointer;
+}
+
+.container.active{
+    background-color: white;
+}
+
+.movie-list-title.active{
+    color:black;
+}
+
+
+
+.navbar-container.active{
+    background-color: white;
+    color: black;
+}
+
+.sidebar.active{
+    background-color: white;
+}
+
+.left-menu-icon.active{
+    color: black;
+}
+
+.toggle.active{
+    background-color: black;
+}
+
+.toggle-ball.active{
+    background-color: white;
+    transform: translateX(-20px);
 }
