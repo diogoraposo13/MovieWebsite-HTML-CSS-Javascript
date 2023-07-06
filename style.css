@@ -245,7 +245,7 @@ body{
 .arrow{
     font-size: 120px;
     position: absolute;
-    top: 80px;
+    top: 40px;
     right: 0;
     color: lightgray;
     opacity: 0.8;
@@ -282,4 +282,11 @@ body{
 .toggle-ball.active{
     background-color: white;
     transform: translateX(-20px);
+}
+
+
+@media only screen and (max-width:940px){
+    .menu-container{
+        display: none;
+    }
 }
